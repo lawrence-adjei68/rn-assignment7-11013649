@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# rn-assignment6-11013649
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Design Choices
+Navigation: Used React Navigation to create tab-based navigation between the Home and Cart screens.
+State Management: Managed cart state within the application using React's useState hook.
+Local Storage: Utilized AsyncStorage to locally persist cart items on the device.
+Implementation
+HomeScreen: Lists available products and allows users to add items to their cart.
+CartScreen: Shows the items in the user's cart and provides an option to remove items.
+Local Storage: Ensures cart items are saved locally using AsyncStorage for session persistence.
 
-## Get started
+SCREENSHOTS:
 
-1. Install dependencies
+Home Screen:
 
-   ```bash
-   npm install
-   ```
+![Home Screen](./assets/HomeScreen.jpg)
+![Home Screen](./assets/HomeScreen2.jpg)
 
-2. Start the app
+Cart Screen:
 
-   ```bash
-    npx expo start
-   ```
+![Cart Screen](./assets/CartScreen.jpg)
 
-In the output, you'll find options to open the app in a
+How to Run;
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone your repository.
+2. Run `npm install` to install dependencies.
+3. Run `expo start` to start the application.
