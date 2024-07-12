@@ -1,24 +1,23 @@
-# rn-assignment6-11013649
+# rn-assignment7-11013649
 
-Design Choices
-Navigation: Used React Navigation to create tab-based navigation between the Home and Cart screens.
-State Management: Managed cart state within the application using React's useState hook.
-Local Storage: Utilized AsyncStorage to locally persist cart items on the device.
-Implementation
-HomeScreen: Lists available products and allows users to add items to their cart.
-CartScreen: Shows the items in the user's cart and provides an option to remove items.
-Local Storage: Ensures cart items are saved locally using AsyncStorage for session persistence.
+This project builds upon our previous assignment design and UI mockup, extending its functionality to include detailed product views and cart management features. The application provides a seamless shopping experience, allowing users to browse products, view detailed information, and manage their cart. The project utilizes a variety of components and libraries to ensure a smooth and efficient user experience.
 
 SCREENSHOTS:
 
 Home Screen:
+Displays a list of available products fetched from an external API.
+Each product has an "Add to cart" button.
+![Home Screen](./assets/home.png)
 
-![Home Screen](./assets/HomeScreen.jpg)
-![Home Screen](./assets/HomeScreen2.jpg)
-
+Product Details Screen:
+Displays detailed information about a selected product.
+Includes an "Add to cart" button.
+![Product Details](./assets/product1.png)
+![Product Details](./assets/product2.png)
 Cart Screen:
-
-![Cart Screen](./assets/CartScreen.jpg)
+Displays the items currently in the user's cart.
+Each item has a "Remove from cart" button.
+![Cart Screen](./assets/cart.png)
 
 How to Run;
 
